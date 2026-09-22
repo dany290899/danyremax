@@ -4,7 +4,6 @@ Sitio web personal y portfolio para Dany Jimenez Diaz, preparado para desplegars
 
 ## Archivos importantes
 - `index.html`: archivo principal del sitio
-- `vercel.json`: configuración de Vercel
 
 ## Despliegue en Vercel
 1. Conecta este repositorio en Vercel.
