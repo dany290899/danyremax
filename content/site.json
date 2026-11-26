@@ -1,0 +1,42 @@
+{
+  "_instrucciones": "Contenido central del sitio. Edita este archivo para actualizar videos, galería, agenda y conexiones. Las propiedades se administran desde el panel de DAWO Inmobiliaria (Supabase) y aparecen aquí automáticamente. Las noticias se actualizan solas desde Google Noticias.",
+
+  "contacto": {
+    "whatsapp": "51960865950",
+    "instagram": "https://www.instagram.com/danyjimenezdiaz/",
+    "tiktok": "https://www.tiktok.com/@danyjimenezdiaz",
+    "facebook": "https://www.facebook.com/danyjimenezdiaz",
+    "dawo": "https://dawoinmobiliaria.com/"
+  },
+
+  "dawo": {
+    "supabaseUrl": "https://vjcgqnwjowgslhypvsvc.supabase.co",
+    "supabaseKey": "sb_publishable_xJniCG3b7wfSimMjLy7iZA_yCHg0Aq7",
+    "catalogo": "https://dawoinmobiliaria.com/#propiedades",
+    "maxPropiedades": 6
+  },
+
+  "agenda": {
+    "_nota": "Si usas Calendly o Cal.com, pega aquí el enlace y el botón de agenda lo abrirá directamente.",
+    "calendarioExterno": "",
+    "horarios": ["09:30", "11:00", "12:30", "15:00", "16:30", "18:00"],
+    "diasHabilitados": [1, 2, 3, 4, 5, 6],
+    "diasAMostrar": 10
+  },
+
+  "videos": {
+    "_nota": "Agrega videos reales con su enlace de YouTube, TikTok o Instagram. Mientras la lista esté vacía se muestran tus canales.",
+    "lista": []
+  },
+
+  "galeria": [
+    { "src": "/assets/img/portada.webp", "w": 1536, "h": 1024, "alt": "Dany Jimenez Diaz frente a una residencia moderna en Lima" },
+    { "src": "/assets/img/inmobiliaria.webp", "w": 1500, "h": 844, "alt": "Dany Jimenez Diaz saliendo de un edificio corporativo" },
+    { "src": "/assets/img/trayectoria.webp", "w": 850, "h": 1062, "alt": "Retrato ejecutivo de Dany Jimenez Diaz" },
+    { "src": "/assets/img/dawo-dany.webp", "w": 1254, "h": 1254, "alt": "Dany Jimenez Diaz, Fundador & Broker de DAWO Inmobiliaria" },
+    { "src": "/assets/img/contacto.webp", "w": 1400, "h": 788, "alt": "Dany Jimenez Diaz atendiendo a clientes desde su oficina" },
+    { "src": "/assets/img/wealth-momentum.webp", "w": 1200, "h": 900, "alt": "Dany Jimenez Diaz en Wealth Momentum" },
+    { "src": "/assets/img/lumify-dany.webp", "w": 1254, "h": 1254, "alt": "Dany Jimenez Diaz, Lumify Soluciones Digitales" },
+    { "src": "/assets/img/retrato.webp", "w": 900, "h": 900, "alt": "Retrato profesional de Dany Jimenez Diaz" }
+  ]
+}
