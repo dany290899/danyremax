@@ -42,7 +42,7 @@
   <link rel="preload" as="image" href="/assets/img/dany-portada-cutout.webp" fetchpriority="high">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <script type="application/ld+json">
   {
@@ -142,8 +142,8 @@
       --muted-d:rgba(255,255,255,.62);
       --line:rgba(20,20,19,.13);
       --line-d:rgba(255,255,255,.13);
-      --serif:"Instrument Serif","Times New Roman",Georgia,serif;
-      --sans:"Inter Tight",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+      --serif:"Playfair Display","Times New Roman",Georgia,serif;
+      --sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
       --max:1360px;
       --gut:clamp(16px,4vw,56px);
       --header:76px;
@@ -172,7 +172,7 @@
     .dark .label b{color:var(--orange-soft)}
     .label::after{content:"";flex:0 0 48px;height:1px;background:currentColor;opacity:.5}
     .display{font-family:var(--serif);font-weight:400;letter-spacing:-.025em;line-height:.95}
-    .h2{font-family:var(--serif);font-weight:400;font-size:clamp(2.3rem,5vw,4.8rem);line-height:.96;letter-spacing:-.03em}
+    .h2{font-family:var(--serif);font-weight:400;font-size:clamp(2.1rem,4.3vw,4.1rem);line-height:1.04;letter-spacing:-.02em}
     .h2 i,.display i{font-style:italic;color:var(--orange)}
     .lede{font-size:clamp(1.02rem,1.3vw,1.14rem);color:var(--muted);max-width:560px}
     .dark .lede{color:var(--muted-d)}
@@ -251,8 +251,8 @@
     .hero-kicker,.hero-row{position:relative;z-index:3}
     .hero-inner{position:relative;height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding-top:var(--header);padding-bottom:clamp(88px,11vh,120px)}
     .hero-kicker{font-family:var(--serif);font-style:italic;font-size:clamp(1.2rem,1.8vw,1.6rem);color:var(--orange-soft);margin-bottom:18px}
-    .hero h1{font-family:var(--serif);font-weight:400;letter-spacing:-.035em;line-height:.86}
-    .hero h1 .n{display:block;font-size:clamp(4.2rem,10.5vw,11rem)}
+    .hero h1{font-family:var(--serif);font-weight:400;letter-spacing:-.025em;line-height:.95}
+    .hero h1 .n{display:block;font-size:clamp(3rem,7.6vw,8rem)}
     .hero h1 .n i{font-style:italic}
     .hero h1 .r{display:block;margin-top:26px;font-family:var(--sans);font-size:clamp(.72rem,.9vw,.8rem);font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:rgba(255,255,255,.72);line-height:1.6}
     .hero-row{display:flex;flex-direction:column;align-items:flex-start;gap:28px;margin-top:30px;max-width:560px}
@@ -398,7 +398,7 @@
     .eco-panel{grid-area:1/1;opacity:0;visibility:hidden;transform:translateY(28px);transition:opacity .6s var(--ease),transform .9s var(--ease),visibility 0s .9s}
     .eco-panel.on{opacity:1;visibility:visible;transform:none;transition:opacity .9s var(--ease) .3s,transform 1.1s var(--ease) .3s,visibility 0s}
     .eco-kicker{font-size:.72rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--orange-soft)}
-    .eco-panel h3{font-family:var(--serif);font-weight:400;font-size:clamp(2.8rem,5.4vw,5rem);line-height:.95;letter-spacing:-.03em;margin-top:18px}
+    .eco-panel h3{font-family:var(--serif);font-weight:400;font-size:clamp(2.3rem,4.2vw,3.9rem);line-height:1.02;letter-spacing:-.02em;margin-top:18px}
     .eco-tagline{font-family:var(--serif);font-style:italic;font-size:clamp(1.4rem,2.2vw,1.9rem);line-height:1.2;color:var(--orange);margin-top:16px}
     .eco-panel .copy{color:var(--muted-d);font-size:1.04rem;margin-top:18px;max-width:520px}
     .eco-power{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:22px;font-size:.84rem;font-weight:600}
@@ -596,7 +596,7 @@
     /* Agenda */
     .agenda{background:var(--paper-2)}
     .agenda-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(32px,4.5vw,72px);align-items:start}
-    .agenda-grid > *,.contact-grid > *,.intl-grid > *,.head > *{min-width:0}
+    .agenda-grid > *,.contact-grid > *,.intl-grid > *,.head > *,.newsletter > *{min-width:0}
     .meet fieldset{min-width:0}
     .agenda-points{margin-top:24px;border-top:1px solid var(--line)}
     .agenda-points li{list-style:none;padding:12px 0;border-bottom:1px solid var(--line);display:flex;gap:16px;font-size:.98rem}
@@ -692,6 +692,7 @@
       :root{--header:68px}
       .brand{width:150px}
       .hero-figure{height:56svh}
+      .hero-halo{width:min(38svh,310px);margin-left:calc(min(38svh,310px) / -2);top:calc(var(--header) + 4svh)}
       .hero-inner{padding-top:calc(var(--header) + 44svh);padding-bottom:96px}
       .hero h1 .r{margin-top:18px}
       .hero-row p{font-size:.96rem}
