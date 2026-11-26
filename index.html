@@ -401,6 +401,8 @@
     .eco-card img{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;transition:transform 1s var(--ease)}
     .eco-card::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,rgba(14,12,11,.95) 8%,rgba(14,12,11,.25) 60%,rgba(14,12,11,.05))}
     .eco-card:hover img{transform:scale(1.07)}
+    .eco-card img.eco-logo{position:absolute;inset:auto;top:26px;left:26px;z-index:1;width:150px;height:auto;object-fit:contain;filter:drop-shadow(0 4px 14px rgba(0,0,0,.5))}
+    .eco-card:hover img.eco-logo{transform:none}
     .eco-body{padding:26px}
     .eco-label{display:inline-block;padding:6px 12px;border-radius:999px;background:rgba(242,119,46,.18);border:1px solid rgba(242,119,46,.5);color:var(--orange-2);font-size:.68rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
     .eco-body h3{font-family:var(--serif);font-size:clamp(1.9rem,2.8vw,2.6rem);font-weight:600;line-height:1;margin-top:14px}
@@ -707,7 +709,7 @@
           <div class="timeline">
             <div class="tl"><div class="tl-n">01</div><div><small>Formación</small><h3>Administración y Negocios Internacionales</h3><p>Base para entender mercados, finanzas y negociación.</p></div></div>
             <div class="tl"><div class="tl-n">02</div><div><small>Actividad principal</small><h3>Asesor inmobiliario · RE/MAX IRON</h3><p>Comercialización, compra, alquiler e inversión en Lima.</p></div></div>
-            <div class="tl"><div class="tl-n">03</div><div><small>Ecosistema</small><h3>Resset · Wealth Momentum · Lumify</h3><p>Demanda inmobiliaria, educación financiera y soluciones digitales.</p></div></div>
+            <div class="tl"><div class="tl-n">03</div><div><small>Ecosistema</small><h3>DAWO Inmobiliaria · Wealth Momentum · Lumify</h3><p>Gestión comercial inmobiliaria, educación financiera y soluciones digitales.</p></div></div>
           </div>
 
           <div class="values" aria-label="Valores"><span>Transparencia</span><span>Criterio</span><span>Patrimonio</span><span>Cercanía</span><span>Visión de largo plazo</span></div>
@@ -825,8 +827,9 @@
         </div>
         <div class="eco-grid">
           <article class="eco-card reveal">
-            <img src="/assets/img/resset.webp" width="1254" height="1254" loading="lazy" decoding="async" alt="Familia en su nuevo hogar con vista a Lima — Resset">
-            <div class="eco-body"><span class="eco-label">Demanda inmobiliaria</span><h3>Resset</h3><p>Cartera activa de compradores e inquilinos buscando propiedad. Si tienes un inmueble, Resset acorta el camino hacia la persona correcta.</p><a href="https://resset.site/" target="_blank" rel="noopener">Conocer Resset ↗</a></div>
+            <img src="/assets/img/dawo.webp" width="1200" height="600" loading="lazy" decoding="async" alt="Residencia moderna iluminada al anochecer — DAWO Inmobiliaria" style="object-position:72% center">
+            <img class="eco-logo" src="/assets/img/dawo-logo-blanco.webp" width="545" height="165" loading="lazy" decoding="async" alt="DAWO Inmobiliaria">
+            <div class="eco-body"><span class="eco-label">Inmobiliaria</span><h3>DAWO Inmobiliaria</h3><p>Estrategia, marketing y gestión comercial inmobiliaria en Perú, para clientes locales e internacionales. Tu propiedad merece una estrategia.</p><a href="https://dawoinmobiliaria.com/" target="_blank" rel="noopener">Visitar dawoinmobiliaria.com ↗</a></div>
           </article>
           <article class="eco-card reveal" style="--d:.08s">
             <img src="/assets/img/wealth-momentum.webp" width="1200" height="900" loading="lazy" decoding="async" alt="Dany Jimenez Diaz en la oficina de Wealth Momentum" style="object-position:center 20%">
